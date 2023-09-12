@@ -88,3 +88,50 @@ buzz = 0
 # print(products)
 
 
+# 14-lesson exercise-1
+# my_friends = {
+#     'friend1': {
+#         'name': 'Qiqi',
+#         'age': 36,
+#         'country': 'London'
+#     },
+#     'friend2': {
+#         'name': 'Lusy',
+#         'age': 33,
+#         'country': 'USA'
+#     }
+# }
+#
+# info_friends = f"My first friend is {my_friends['friend1']['name']}, she's {my_friends['friend1']['age']}. She was born in {my_friends['friend1']['country']}"
+# print(info_friends)
+
+# exercise-2
+# meals_of_my_family = {
+#     'dad': 'meet',
+#     'mum': 'palov',
+#     'sister': 'hadisa'
+# }
+#
+# # print(meals_of_my_family.items())
+#
+# for name, food in meals_of_my_family.items():
+#     if name in ['dad', 'mum', 'sister']:
+#         txt_meal = f'{name}\'s favourite food is {food}'
+#         print(txt_meal)
+
+# exercise-3
+# key_words = {
+#     'integer':'butun son',
+#     'flost':'o\'nlik son',
+#     'string':'ip',
+#     'dictionary':'lug\'at',
+#     'list':'ro\'yxat',
+#     'tyuplr':'o\'zgartirib bo\'lmas ro\'yxat'
+# }
+#
+# buzz = input('Enter the key word: ')
+#
+# if buzz in key_words:
+#     print(f"""{buzz}ning tarjimasi: "{key_words[buzz]}\"""")
+# else:
+#     print('Bunday so\'z mavjud emas')
