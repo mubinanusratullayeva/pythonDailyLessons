@@ -120,14 +120,14 @@ buzz = 0
 #         print(txt_meal)
 
 # exercise-3
-# key_words = {
-#     'integer':'butun son',
-#     'flost':'o\'nlik son',
-#     'string':'ip',
-#     'dictionary':'lug\'at',
-#     'list':'ro\'yxat',
-#     'tyuplr':'o\'zgartirib bo\'lmas ro\'yxat'
-# }
+key_words = {
+    'integer':'butun son',
+    'float':'o\'nlik son',
+    'string':'ip',
+    'dictionary':'lug\'at',
+    'list':'ro\'yxat',
+    'tyuple':'o\'zgartirib bo\'lmas ro\'yxat'
+}
 #
 # buzz = input('Enter the key word: ')
 #
@@ -135,3 +135,62 @@ buzz = 0
 #     print(f"""{buzz}ning tarjimasi: "{key_words[buzz]}\"""")
 # else:
 #     print('Bunday so\'z mavjud emas')
+
+
+# 15-lesson exercise-1
+
+# for key_w, value_w in sorted(key_words.items()):
+#     print(key_w, '-', value_w)
+
+# exercise-2
+
+# countries = {
+#     'Ozbekiston': 'Toshkent',
+#     'Amerika': 'Vashington',
+#     'Xitoy': 'Pekin',
+#     'Koreya': 'Seul',
+#     'Fransiya': 'Parij',
+#     'Tojikiston': 'Dushanbe',
+#     'Rassiya': 'Moskva',
+# }
+#
+# print('Davlatlar nomi:')
+# for key_w in sorted(countries):
+#     print(key_w)
+#
+# print("""
+#
+# Poytaxtlar nomi:""")
+# for value_w in sorted(countries.values()):
+#     print(value_w)
+#
+# foo = input("""
+#
+# Enter the name of the country: """).title()
+# capital = countries.get(foo)
+#
+# if capital == None:
+#     print(f'There is no info about {foo}')
+# else:
+#     print(f'{capital.title()} is the capital of {foo.upper()}')
+
+# exercise-3
+
+# food = {
+#     'manti': 20000,
+#     'lagmon': 30000,
+#     'hadisa': 40000,
+#     'chuchvara':20000,
+#     'mandu':15000
+# }
+#
+# print('3 ta taom buyurtma bering.')
+# buyurtmalar = []
+# for n in range(3):
+#     buyurtmalar.append(input(f"{n+1}-food:").lower())
+#
+# for buyurtma in buyurtmalar:
+#     if buyurtma in food:
+#         print(f"{buyurtma.title()} {food[buyurtma]} sum")
+#     else:
+#         print(f"Soory, we have no {buyurtma}")
