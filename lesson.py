@@ -120,14 +120,14 @@ buzz = 0
 #         print(txt_meal)
 
 # exercise-3
-key_words = {
-    'integer':'butun son',
-    'float':'o\'nlik son',
-    'string':'ip',
-    'dictionary':'lug\'at',
-    'list':'ro\'yxat',
-    'tyuple':'o\'zgartirib bo\'lmas ro\'yxat'
-}
+# key_words = {
+#     'integer':'butun son',
+#     'float':'o\'nlik son',
+#     'string':'ip',
+#     'dictionary':'lug\'at',
+#     'list':'ro\'yxat',
+#     'tyuple':'o\'zgartirib bo\'lmas ro\'yxat'
+# }
 #
 # buzz = input('Enter the key word: ')
 #
@@ -194,3 +194,40 @@ key_words = {
 #         print(f"{buyurtma.title()} {food[buyurtma]} sum")
 #     else:
 #         print(f"Soory, we have no {buyurtma}")
+
+# new-lesson
+# my_book = {
+#     'name': 'IELTS Practice',
+#     'author': 'James Bon',
+#     'price': 40000,
+#     'year': 2023
+# }
+#
+# print(type(my_book))
+
+sinf = {
+    'student':{
+        'name':'Bob',
+        'age': 14,
+        'subject': 'english'
+    },
+    'student2':{
+        'name': 'Tom',
+        'age':13,
+        'subject':'math'
+    }
+}
+
+for i in sinf.keys():
+    if i == 'student':
+        for o, j in sinf['student'].items():
+            print(o)
+            print(j)
+    else:
+        for k, l in sinf['student2'].items():
+            print(o)
+            print(j)
+
+
+for i in range(12):
+    print(i)
