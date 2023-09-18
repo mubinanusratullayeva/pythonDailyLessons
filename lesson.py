@@ -203,31 +203,64 @@ buzz = 0
 #     'year': 2023
 # }
 #
+
 # print(type(my_book))
 
-sinf = {
-    'student':{
-        'name':'Bob',
-        'age': 14,
-        'subject': 'english'
+# Nesting
+# exercise-1
+ilm_fandagi_shaxslar = {
+    'Abu Abdulloh Muhammad ibn Ismoil': {
+        'yil': 810,
+        'shahar': 'Buxoro',
+        'yosh': 60
     },
-    'student2':{
-        'name': 'Tom',
-        'age':13,
-        'subject':'math'
+    'Alisher Navoiy': {
+        'yil': 1441,
+        'shahar': 'Xirot',
+        'yosh': 60
+    },
+    'Erkin Vohidov': {
+        'yil': 1936,
+        'shahar': 'Farg\'ona',
+        'yosh': 80
+    },
+    'Abdulla Qodiriy': {
+        'yil': 1894,
+        'shahar': 'Toshkent',
+        'yosh': 44
     }
 }
 
-for i in sinf.keys():
-    if i == 'student':
-        for o, j in sinf['student'].items():
-            print(o)
-            print(j)
-    else:
-        for k, l in sinf['student2'].items():
-            print(o)
-            print(j)
+#
+# for ism, malumot in ilm_fandagi_shaxslar.items():
+#     info = f"{ism} {malumot['yil']}-yilda tug'ilgan {malumot['shahar']}da tavallud topgan. {malumot['yosh']} yil umr ko'rgan"
+#
+# print(info)
 
 
-for i in range(12):
-    print(i)
+# exercise-2
+# ilm_fandagi_shaxslar['Abu Abdulloh Muhammad ibn Ismoil']['asarlar'] = ['al-jome', 'al-sahih', 'al-adab', 'al-mufrad']
+# ilm_fandagi_shaxslar['Abdulla Qodiriy']['asarlar'] = ['O\'tgan kunlar']
+# ilm_fandagi_shaxslar['Alisher Navoiy']['asarlar'] = ['Xamsa', 'Lison ut-tayr']
+# ilm_fandagi_shaxslar['Erkin Vohidov']['asarlar'] = ['tong nafasi']
+#
+# for ism, info in ilm_fandagi_shaxslar.items():
+#     print(f'\n{ism}ning asarlari: ')
+#     for i in info['asarlar']:
+#         print(i)
+
+
+
+# new lesson
+# try:
+#     qwe = int(input('son kiriting: '))
+#
+#     if qwe % 2 == 0:
+#         print('bu son juft')
+#     else:
+#         print('bu son toq')
+# except ValueError:
+#     print('iltimos faqatgina son kiriting: ')
+#
+# for i in range(5):
+#     print(i)
