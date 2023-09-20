@@ -1,6 +1,6 @@
 # name = input('ismingizni kiriting: ')
 
-# a = int(input('a sonni kiriting: '))
+a = int(input('a sonni kiriting: '))
 # b = int(input('b sonni kiriting: '))
 
 buzz = 0
@@ -312,12 +312,23 @@ ilm_fandagi_shaxslar = {
 
 
 
-foo = ['a', 'o', 'i', 'u', 'e', 'A', 'O', 'I', 'U','E', 'O\'', 'o\'']
+# foo = ['a', 'o', 'i', 'u', 'e', 'A', 'O', 'I', 'U','E', 'O\'', 'o\'']
 
-def cousins(item):
-    buzz = 0
-    for i in item:
-        if i in foo:
-            buzz += 1
-    return buzz
-print(cousins('mening yurtim O\'zbekiston'))
+# def cousins(item):
+#     buzz = 0
+#     for i in item:
+#         if i in foo:
+#             buzz += 1
+#     return buzz
+# print(cousins('mening yurtim O\'zbekiston'))
+
+
+# def count_intgs(a):
+#     buzz = 0
+#     goo = []
+#     for i in range(1, a+1):
+#         buzz += 1
+#         bar = buzz ** buzz
+#         goo.append(bar)
+#     return goo
+# print(count_intgs(a))
