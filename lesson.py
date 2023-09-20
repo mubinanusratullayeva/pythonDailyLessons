@@ -275,6 +275,7 @@ ilm_fandagi_shaxslar = {
 # print(first_non_consecutive([1,2,3,4,6,7,8]))
 
 
+
 # def find_smallest_int(arr):
 #     smallest = arr[0]
 #     for num in arr:
@@ -282,5 +283,32 @@ ilm_fandagi_shaxslar = {
 #             smallest = num
 #     return smallest
 # print(find_smallest_int([1,2,3,4,-5,7]))
+
+
+
+
+# def sum_of_nums(a, b, *args):
+#     foo = 0
+#     print(args, type(args))
+#     for i in args:
+#         foo += i
+#     return a + b + foo
+# print(sum_of_nums(a, b, b))
+
+
+#
+# foo, bar, buzz, *goo = (1,2,3,4,5,6,7,8,9,9)
+# print(foo, bar, buzz, goo, type(goo))
+
+
+
+
+# def my_function(**args):
+#     type(args)
+#     for key, value in args.items():
+#         print(f"The value of {key} is {value}")
+#
+# my_function(name="John", age=30, city="New York")
+
 
 
