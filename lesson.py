@@ -312,3 +312,12 @@ ilm_fandagi_shaxslar = {
 
 
 
+foo = ['a', 'o', 'i', 'u', 'e', 'A', 'O', 'I', 'U','E', 'O\'', 'o\'']
+
+def cousins(item):
+    buzz = 0
+    for i in item:
+        if i in foo:
+            buzz += 1
+    return buzz
+print(cousins('mening yurtim O\'zbekiston'))
