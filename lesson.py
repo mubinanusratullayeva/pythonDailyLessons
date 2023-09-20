@@ -273,3 +273,14 @@ ilm_fandagi_shaxslar = {
 #         return None
 #
 # print(first_non_consecutive([1,2,3,4,6,7,8]))
+
+
+# def find_smallest_int(arr):
+#     smallest = arr[0]
+#     for num in arr:
+#         if num < smallest:
+#             smallest = num
+#     return smallest
+# print(find_smallest_int([1,2,3,4,-5,7]))
+
+
