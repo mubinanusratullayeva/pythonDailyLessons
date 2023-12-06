@@ -1,6 +1,6 @@
 # name = input('ismingizni kiriting: ')
 
-a = int(input('a sonni kiriting: '))
+# a = int(input('a sonni kiriting: '))
 # b = int(input('b sonni kiriting: '))
 
 buzz = 0
@@ -332,3 +332,31 @@ ilm_fandagi_shaxslar = {
 #         goo.append(bar)
 #     return goo
 # print(count_intgs(a))
+
+
+# dicti = {
+#     'english': '2months',
+#     'russian': '7months',
+#     'chinese': '7months',
+#     'korean': '3years',
+#     'italian': 'sometimes',
+#     'arabic': 'everyday',
+#     'react': '3months',
+#     'javascript': '4months',
+#     'python': '2 months',
+#     'next': 'a day'
+# }
+#
+# for o, u in sorted(dicti.items()):
+#     print(f'"{o}": "{u}"')
+
+
+
+# name = input('name: ')
+# birthyear = int(input('birthyear: '))
+#
+# def count_age(n, y):
+#     count = 2023 - y
+#     return f"""{n} is {count} years old"""
+#
+# print(count_age(name, birthyear))
